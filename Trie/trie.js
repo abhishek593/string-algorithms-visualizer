@@ -159,7 +159,6 @@ function addWord() {
 
     for (let i = 0; i < wordsList.length; i++) {
         if (wordsList[i] === word) {
-            wordsList.splice(i);
             info.innerText = `Word already present in dictionary.`
             return;
         }
